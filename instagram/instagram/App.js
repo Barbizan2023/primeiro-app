@@ -1,5 +1,5 @@
 import { StyleSheet, View } from "react-native";
-import FotoPerfil from "./src/assets/timao.png"
+import FotoPerfil from "../instagram/src/assets/timao.png"
 import InfoProfile from "./src/components/InfoProfile";
 
 export default function App(){
