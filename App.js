@@ -1,6 +1,7 @@
 import { StyleSheet, View } from "react-native";
 import FotoPerfil from "./src/assets/timao.png"
 import InfoProfile from "./src/components/InfoProfile";
+import MyPosts from "./src/components/MyPosts";
 
 export default function App(){
   return (
@@ -11,6 +12,7 @@ export default function App(){
           followers = {1200}
           following = {100}
           descriptions="Thz"/>
+          <MyPosts/>
       </View>
   );
 }
