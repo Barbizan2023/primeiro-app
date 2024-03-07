@@ -1,7 +1,7 @@
 import { StyleSheet, Image, ScrollView, TouchableOpacity } from "react-native";
-import Fake1 from "../../assets/lebron1.jpg";
-import Fake2 from "../../assets/lebron2.webp";
-
+import Foto1 from "../../assets/lebron2.webp";
+import Foto2 from "../../assets/lebron1.jpg";
+import Story from "../Story"
 
 export default function Stories() {
   return (

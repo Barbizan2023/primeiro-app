@@ -34,7 +34,7 @@ export default function MyPosts() {
 }
 
 const styles = StyleSheet.create({
-    icons: {justifyContent: "space-around", flexDirection: "row", },
+    icons: {justifyContent: "space-around", flexDirection: "row", marginTop:30},
     image: { width: "33.3%", height:120, borderColor: "white", borderWidth: 1},
     post: {flexDirection:"row", flexWrap: "wrap",  marginTop: 15}
 });
